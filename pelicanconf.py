@@ -35,3 +35,11 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+MEDIUS_CATEGORIES = {
+    'Data insight': {
+        'description': 'A galaxy is a gravitationally bound system of stars, stellar remnants, interstellar gas and dust, and dark matter.',
+        'logo': 'https://filedn.com/lv1BADwarvAYuD5Q5JTX7Kk/-%20Resources/Workblog/Category/data%20insight.jpg',
+        'thumbnail': 'https://filedn.com/lv1BADwarvAYuD5Q5JTX7Kk/-%20Resources/Workblog/Category/data%20insight.jpg'
+    }
+}
