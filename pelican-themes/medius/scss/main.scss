@@ -178,7 +178,7 @@ div.main-nav-container {
 // main container is used in index.html
 div.main-container {
 
-    text-align: right;
+    text-align: left;
     margin-top: 67px;
     padding: 20px;
 
@@ -379,7 +379,7 @@ div.page-container {
     margin-top: 80px;
 
     div.entry-content {
-        max-width: 700px;
+        max-width: 900px;
         margin: 0 auto;
         text-align: left;
         font-family: $font-family-serif;
