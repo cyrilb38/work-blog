@@ -38,8 +38,8 @@ DEFAULT_PAGINATION = 10
 
 MEDIUS_CATEGORIES = {
     'Data insight': {
-        'description': 'A galaxy is a gravitationally bound system of stars, stellar remnants, interstellar gas and dust, and dark matter.',
-        'logo': 'https://filedn.com/lv1BADwarvAYuD5Q5JTX7Kk/-%20Resources/Workblog/Category/data%20insight.jpg',
-        'thumbnail': 'https://filedn.com/lv1BADwarvAYuD5Q5JTX7Kk/-%20Resources/Workblog/Category/data%20insight.jpg'
+        'description': 'All about messing around with data to learn something new.',
+        'logo': 'https://raw.githubusercontent.com/cyrilb38/work-blog/master/ressources/category/data%20insight.jpg',
+        'thumbnail': 'https://raw.githubusercontent.com/cyrilb38/work-blog/master/ressources/category/data%20insight.jpg'
     }
 }
