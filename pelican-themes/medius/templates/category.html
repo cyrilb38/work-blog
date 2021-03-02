@@ -24,9 +24,9 @@
         <div class="pure-u-1 pure-u-md-2-3">
            <div class="col">
                {% if article.cover %}
-               <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-1" style="background-image:url({{ article.cover }})"><span class="header">{{ article.title }}</span></a>
+               <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-1" style="background-image:url({{ SITEURL }}/{{ article.cover }})"><span class="header">{{ article.title }}</span></a>
                {% elif article.thumbnail %}
-               <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-1" style="background-image:url({{ article.thumbnail }})"><span class="header">{{ article.title }}</span></a>
+               <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-1" style="background-image:url({{ SITEURL }}/{{ article.thumbnail }})"><span class="header">{{ article.title }}</span></a>
                {% endif %}
            </div>
         </div>
@@ -65,9 +65,9 @@
     <div class="pure-u-1 pure-u-sm-1-2 article-info">
         <div class="col">
             {% if article.cover %}
-            <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-2" style="background-image:url({{ article.cover }})"><span class="header">{{ article.title }}</span></a>
+            <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-2" style="background-image:url({{ SITEURL }}/{{ article.cover }})"><span class="header">{{ article.title }}</span></a>
             {% elif article.thumbnail %}
-            <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-2" style="background-image:url({{ article.thumbnail }})"><span class="header">{{ article.title }}</span></a>
+            <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-2" style="background-image:url({{ SITEURL }}/{{ article.thumbnail }})"><span class="header">{{ article.title }}</span></a>
             {% endif %}
 
             <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
@@ -102,9 +102,9 @@
     <div class="pure-u-1 pure-u-lg-1-3 article-info">
         <div class="col">
             {% if article.cover %}
-            <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-3" style="background-image:url({{ article.cover }})"><span class="header">{{ article.title }}</span></a>
+            <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-3" style="background-image:url({{ SITEURL }}/{{ article.cover }})"><span class="header">{{ article.title }}</span></a>
             {% elif article.thumbnail %}
-            <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-3" style="background-image:url({{ article.thumbnail }})"><span class="header">{{ article.title }}</span></a>
+            <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-3" style="background-image:url({{ SITEURL }}/{{ article.thumbnail }})"><span class="header">{{ article.title }}</span></a>
             {% endif %}
 
             <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
